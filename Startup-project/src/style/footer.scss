@@ -1,0 +1,132 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .parentFooter {
+        width: 100%;
+        padding: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: #1e0036;
+
+        .box11 {
+            .logo {
+                h1 {
+                    font-size: 1.7rem;
+                    color: #fff;
+                }
+
+                p {
+                    color: #fff;
+                    font-size: 0.9rem;
+                    padding: 0;
+                }
+            }
+
+            p {
+                padding: 1rem 0;
+                color: #a43af8;
+            }
+        }
+
+        .box12 {
+            h1 {
+                color: #fff;
+                font-size: 1.3rem;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0.5rem 0;
+
+                li {
+                    padding: 0.3rem 0;
+
+                    a {
+                        text-decoration: none;
+                        color: #eee;
+                        font-size: 0.9rem;
+                    }
+
+                    &:hover {
+                        a {
+                            color: #a43af8;
+                        }
+                    }
+                }
+            }
+        }
+
+        .box13 {
+            h1 {
+                color: #fff;
+                font-size: 1.3rem;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0.5rem 0;
+
+                li {
+                    padding: 0.3rem 0;
+
+                    a {
+                        text-decoration: none;
+                        color: #eee;
+                        font-size: 0.9rem;
+                    }
+
+                    &:hover {
+                        a {
+                            color: #a43af8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .childFooter {
+        width: 100%;
+        background: #a43af8;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h4 {
+            font-size: 0.7rem;
+            padding: 0 2rem;
+            color: #fff;
+        }
+
+        .goToTop {
+            width: 20px;
+            height: 20px;
+            background: #1e0036;
+            border-radius: 50px;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 1rem;
+
+            a {
+                color: #fff;
+
+                .fa-solid {
+                    transform: translateY(0);
+                    animation-name: goTop;
+                    animation-iteration-count: infinite;
+                    animation-duration: 1s;
+                    animation-direction: alternate-reverse;
+                }
+            }
+        }
+    }
+}
